@@ -1,5 +1,26 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "9d5dcef1-5397-4db1-9f7a-938b4359de97": {
+      "ProjectGuid": "9d5dcef1-5397-4db1-9f7a-938b4359de97",
+      "DisplayName": "WeatherApp1.Android",
+      "ColorIndex": 0
+    },
+    "fc70abc3-0b69-48de-ba2e-682d44859ec4": {
+      "ProjectGuid": "fc70abc3-0b69-48de-ba2e-682d44859ec4",
+      "DisplayName": "WeatherApp1.iOS",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f077c346-510c-4469-9886-89ca49fde344": {
+      "ProjectGuid": "f077c346-510c-4469-9886-89ca49fde344",
+      "DisplayName": "WeatherApp1",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
 }
