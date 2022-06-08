@@ -10,7 +10,9 @@ namespace WeatherApp1
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            NavigationPage navPage = new NavigationPage(new WeatherTabbedPage());
+
+            MainPage = navPage;
         }
 
         protected override void OnStart()
