@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="WeatherApp1.NowPage" BackgroundImageSource="SunnyDays">
+             x:Class="WeatherApp1.NowPage" BackgroundImageSource="Background">
     <ContentPage.Content>
         
             
@@ -20,16 +20,18 @@
                    Padding="-17,-5,0,0" Margin="0,0,0,50"/>
                 
                 <Label Text=" WESTERN CAPE" FontSize="18.2" VerticalOptions="CenterAndExpand" TextColor="White" FontAttributes="None" 
-                  Margin="0,-30,50,-50" Padding="-206.8,-5,0,0"></Label>
+                  Margin="0,-30,50,-50" Padding="-209.9,-5,0,0"></Label>
             </StackLayout>
                 <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Image Source="weather.png" WidthRequest="50" HeightRequest="50" VerticalOptions="Center"/>
-                    <Label Text="22" TextColor="White" FontSize="135" FontAttributes="None" VerticalOptions="Start" 
-                           Padding="-90.1,90,-50,45"        />
-                    <Label Text="°C" TextColor="White" FontSize="25" VerticalOptions="Center" Padding="35.1,0,-45,45" />
+                        
+                    <Label Text="22" TextColor="White" FontSize="165" FontAttributes="None" HorizontalOptions="Center" VerticalOptions="Center" 
+                           Padding="-70.1,105,-85,0"        />
+                    <Label Text="°C" TextColor="White" FontSize="45" Padding="50.1,110,-90,40" />
                     </StackLayout>
-                <Label Text="Warm and Sunny" TextColor="White" FontSize="20" HorizontalOptions="Center"/>
+
+                <Image Source="daylight" Margin="0,-20,0,10" VerticalOptions="Center" WidthRequest="65" HeightRequest="65" ></Image>
+                <Label Text="Warm and Sunny" TextColor="White" FontSize="20" HorizontalOptions="CenterAndExpand"/>
                 <Label Text="June 15, 09:03 AM" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
             </StackLayout>
 

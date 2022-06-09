@@ -4,9 +4,9 @@
             x:Class="WeatherApp1.WeatherTabbedPage" NavigationPage.HasNavigationBar="False" BarTextColor="white" BarBackgroundColor="#3972B8">
 
     <TabbedPage.Children>
-        <local:NowPage Title="Now" />
-        <local:HourlyPage Title="Hourly" />
-        <local:DailyPage Title="Daily" />
+        <local:NowPage Title="Today" />
+        <local:HourlyPage Title="Tomorrow" />
+        <local:DailyPage Title="Friday" />
         
     </TabbedPage.Children>
     

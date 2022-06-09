@@ -16,13 +16,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Tomorrow.xaml.cs">
+      <DependentUpon>Tomorrow.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Today.xaml.cs">
+      <DependentUpon>Today.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="DailyPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="HourlyPage.xaml">
+    <EmbeddedResource Update="Tomorrow.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="NowPage.xaml">
+    <EmbeddedResource Update="Today.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WeatherTabbedPage.xaml">
