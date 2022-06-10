@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Friday.xaml.cs">
+      <DependentUpon>Friday.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Tomorrow.xaml.cs">
       <DependentUpon>Tomorrow.xaml</DependentUpon>
     </Compile>
@@ -25,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="DailyPage.xaml">
+    <EmbeddedResource Update="Friday.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Tomorrow.xaml">
