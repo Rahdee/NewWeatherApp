@@ -126,5 +126,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\cloudiness.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cloudybackground.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
