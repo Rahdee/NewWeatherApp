@@ -37,7 +37,8 @@
                  <Label Text="Warm and Sunny" TextColor="White" FontSize="20" HorizontalOptions="CenterAndExpand"/>
                  <Label Text="June 15, 09:03 AM" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
 
-                  <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="15,15,25,0" Padding="0,10,-10,0" HeightRequest="60" VerticalOptions="Start">
+                  <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="15,15,25,0" Padding="0,10,-10,0" HeightRequest="65"
+                         VerticalOptions="Start">
                       <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                          <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
