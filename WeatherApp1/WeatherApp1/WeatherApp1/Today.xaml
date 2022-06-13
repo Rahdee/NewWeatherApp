@@ -3,55 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WeatherApp1.NowPage" BackgroundImageSource="Background">
     <ContentPage.Content>
-        
-            
+
+
         <Grid>
 
-              <Grid.RowDefinitions>
+            <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
-              </Grid.RowDefinitions>
-                
-              <StackLayout Orientation="Horizontal" Spacing="16" HorizontalOptions="Start" VerticalOptions="Start" Margin="15,50">
+            </Grid.RowDefinitions>
+
+            <StackLayout Orientation="Horizontal" Spacing="16" HorizontalOptions="Start" VerticalOptions="Start" Margin="15,50">
                 <Image Source="Location.png" WidthRequest="24" HeightRequest="24" VerticalOptions="Center" Margin="0,0,0,52"/>
                 <Label  Text="BELLVILLE" FontSize="35.5" VerticalOptions="CenterAndExpand" TextColor="White" FontAttributes="BOLD" 
                    Padding="-17,-5,0,0" Margin="0,0,0,50"/>
-                
+
                 <Label Text=" WESTERN CAPE" FontSize="18.2" VerticalOptions="CenterAndExpand" TextColor="White" FontAttributes="None" 
                        Margin="2,-30,50,-50" Padding="-209.9,-5,0,0">
                 </Label>
-              </StackLayout>
-            
-              <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
-                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                     
-                      <Label Text="22" TextColor="White" FontSize="168.5" FontAttributes="None" HorizontalOptions="Center" VerticalOptions="Center" 
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Margin="0,20" HorizontalOptions="Center" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                    <Label Text="22" TextColor="White" FontSize="168.5" FontAttributes="None" HorizontalOptions="Center" VerticalOptions="Center" 
                              Padding="-50.1,100,-85,0"        />
-                      <Label Text="°C" TextColor="White" FontSize="47" Padding="60.1,105,-80,40" />
-                     
-                 </StackLayout>
+                    <Label Text="°C" TextColor="White" FontSize="47" Padding="60.1,105,-80,40" />
 
-                 <Image Source="daylight" Margin="0,-20,0,10" VerticalOptions="Center" WidthRequest="65" HeightRequest="65" ></Image>
-                 <Label Text="Warm and Sunny" TextColor="White" FontSize="20" HorizontalOptions="CenterAndExpand"/>
-                 <Label Text="June 15, 09:03 AM" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                </StackLayout>
 
-                  <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="15,15,25,0" Padding="0,10,-10,0" HeightRequest="65"
+                <Image Source="daylight" Margin="0,-20,0,10" VerticalOptions="Center" WidthRequest="65" HeightRequest="65" ></Image>
+                <Label Text="Warm and Sunny" TextColor="White" FontSize="20" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="June 15, 09:03 AM" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+
+                <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="15,15,25,0" Padding="0,10,-10,0" HeightRequest="65"
                          VerticalOptions="Start">
-                      <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                         <Grid.ColumnDefinitions>
+                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                        <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
-                         </Grid.ColumnDefinitions>
+                        </Grid.ColumnDefinitions>
 
                         <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
                             <Image Source="humidity.png" HeightRequest="25" HorizontalOptions="Center"/>
                             <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                                 <Label Text="50%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                                <Label Text="Humidity" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                                <Label Text="Humidity" TextColor="blue" FontSize="11" HorizontalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
 
@@ -59,7 +59,7 @@
                             <Image Source="wind.png" HeightRequest="25" HorizontalOptions="Center"/>
                             <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                                 <Label Text="2.6 m/s" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                                <Label Text="Wind" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                                <Label Text="Wind" TextColor="blue" FontSize="11" HorizontalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
 
@@ -67,42 +67,37 @@
                             <Image Source="pressure.png" HeightRequest="25" HorizontalOptions="Center"/>
                             <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                                 <Label Text="1011 hpa" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                                <Label Text="Pressure" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                                <Label Text="Pressure" TextColor="blue" FontSize="11" HorizontalOptions="Center"/>
                             </StackLayout>
                         </StackLayout>
-                          
-                          <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <Image Source="cloudiness.png" HeightRequest="25" HorizontalOptions="Center"/>
-                    <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
-                        <Label Text="24%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
-                        <Label Text="Cloudiness" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
-                    </StackLayout>
-                </StackLayout>
-                          
-                          
 
-
-
-
-
+                        <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                            <Image Source="cloudiness.png" HeightRequest="25" HorizontalOptions="Center"/>
+                            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                                <Label Text="24%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                                <Label Text="Cloudiness" TextColor="blue" FontSize="11" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </StackLayout>
                     </Grid>
-                  </Frame>
-
-
-
-
-
-
+                </Frame>
             </StackLayout>
+            <ListView x:Name="WeatherForecastList" ItemsSource="{Binding Weathers}" SeparatorVisibility="None"
+                  Grid.Row="3" Margin="20,0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <ViewCell>
 
-           
-            
-            
-            
-            
+
+
+
+
+
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </Grid>
-
-
     </ContentPage.Content>
 </ContentPage>
     
