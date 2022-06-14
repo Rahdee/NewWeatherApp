@@ -55,7 +55,7 @@ namespace WeatherApp1
         public int sunrise { get; set; }
         public int sunset { get; set; }
     }
-    public class WeatherApp1
+    public class Weather
     {
         public int id { get; set; }
         public string main { get; set; }
