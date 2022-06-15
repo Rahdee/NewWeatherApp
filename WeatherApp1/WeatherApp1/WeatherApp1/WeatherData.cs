@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -19,11 +20,19 @@ namespace WeatherApp1
     }
     public class Main
     {
-        public double temp { get; set; }
-        public double feels_like { get; set; }
+        [JsonProperty("Temp")]
+        public double Temp { get; set; }
+
+        [JsonProperty("temp_min")]
         public double temp_min { get; set; }
+
+        [JsonProperty("temp_max")]
         public double temp_max { get; set; }
+
+        [JsonProperty("pressure")]
         public int pressure { get; set; }
+
+        [JsonProperty("humidity")]
         public int humidity { get; set; }
     }
     public class Rain
